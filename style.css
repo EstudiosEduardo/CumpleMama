@@ -1,0 +1,115 @@
+body{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/BackImageEdit.png?alt=media&token=1d6f655d-edef-408e-8047-159e3a31b22e");
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow:hidden;
+    overflow-y: none;
+    overflow-x: none;
+    }
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Dirt', cursive;
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.2;
+    color: red;    
+
+}
+
+  #boton{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/cntDeskSafeOpen.png?alt=media&token=9ef669e7-04e9-43fe-9e0d-634aaa12587c");
+    background-size: contain;
+    background-color: rgba(228, 228, 228, 0.516);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2.5px solid rgba(255, 255, 255, 0.70);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    left: 6.66%; 
+    display: flex;
+    justify-content: center;
+    font-family:'Staatliches', cursive;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(255, 0, 0);
+    border-radius: 5%;
+    opacity: 75%;
+    top: 77.1%;
+    width: 50%;
+    left: 0%;
+    
+}     
+
+#boton2{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/cntDeskSafe.png?alt=media&token=fd40e39c-d7d3-46ce-9683-cd9687abc3a0");
+    background-color: rgba(228, 228, 228, 0.516);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2.5px solid rgba(255, 255, 255, 0.70);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family:'Staatliches', cursive;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(255, 0, 0);
+    border-radius: 5%;
+    opacity: 75%;
+    top: 77.1%;
+    width: 50%;
+    left: 50%;
+}
+
+#boton3{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/Polvora.png?alt=media&token=41d9806a-1106-4690-a510-9c3ed664571b");
+    background-color: rgba(228, 228, 228, 0.516);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family:'Staatliches', cursive;
+    font-weight: 750;
+    line-height: 1.2;
+    color: rgb(255, 0, 0);
+    opacity: 75%;
+    border-radius: 5%;
+    cursor: pointer;
+    position: absolute;
+    border: 2.5px solid rgba(255, 255, 255, 0.70);
+    background-color:  rgba(228, 228, 228, 0.516);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    top: 90% ;
+    
+}
+
+/*https://blocs.xtec.cat/escoladepapes/files/2012/11/metafores.pdf 
+Pagina 36*/

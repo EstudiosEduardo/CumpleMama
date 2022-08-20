@@ -4,29 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css"
+      href="reset.css"
     />
-    <style>
-      body {
-        width: 100%;
-        margin: 100px auto;
-        padding: 10px;
-           }
-
-      button, h1{
-        margin :10px 10%;;
-      }     
-    </style>
-    <title>Caja fuerte Fabi</title>
+    <link 
+    rel="stylesheet"
+    href="style.css"
+    />
+    <title>Pequeño rincon seguro</title>
   </head>
   <body>
     <div id="container">
-      <h1>Caja fuerte Fabi</h1>
-      <button id = 'boton' type="button" class="btn btn-primary btn-lg">Abrir / Cerrar</button>
-    </div>
+      <h1 onclick="location.href='Metafora.html'">Tu Propio <br>«Cajón del Medio» </h1>
+      </div>
+      <footer>
+        <button id = 'boton' type="button" onclick="Abrir()" class="btn btn-primary btn-lg">Abrir</button>
+        <button id = 'boton2' type="button"  onclick="Cerrar()" class="btn btn-primary btn-lg">Cerrar</button>
+        <button id = 'boton3' type="button" onclick="location.href='https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/videoMama.mp4?alt=media&token=91595418-47ef-4c69-9bb1-9ad9212a8bc2'" class="btn btn-primary btn-lg">Púlsame</button>
+      </footer>
+    
+        
+      
 
     <script type="module" src="./index.js"></script>
+
+    <script>function Abrir(){
+      var snd = new Audio ('https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/opensafe.mp3?alt=media&token=57448935-044c-434e-9765-828cbe787268');      
+      snd.play();
+    }</script>
+
+    <script>function Cerrar(){    
+      var snd = new Audio ('https://firebasestorage.googleapis.com/v0/b/caja-fuerte-cumple-fabi.appspot.com/o/closesafe.mp3?alt=media&token=e0038543-13a2-479b-91ab-006ac58cd106');
+      snd.play();
+    }</script>
+
+
   </body>
 </html>
